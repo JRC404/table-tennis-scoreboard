@@ -32,7 +32,22 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.homeButton {
+  background-color: #008CBA;
+  width: 8em;
+  height: 5em;
+  color: white;
+}
+
+.awayButton {
+  background-color: purple;
+  width: 8em;
+  height: 5em;
+  color: white;
 }
