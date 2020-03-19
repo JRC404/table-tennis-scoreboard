@@ -1,3 +1,3 @@
 # Table Tennis scoreboard
 
-An application to built a table tennis scoreboard
+An application to build a table tennis scoreboard
