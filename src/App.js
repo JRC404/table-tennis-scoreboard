@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Scorecard from "./Components/Scorecard";
 import "./App.css";
 
 function Display(props) {
@@ -49,6 +50,9 @@ function App() {
         <h2>Away Name</h2>
         <AwayButton onClickFunction={incrementAway} increment={1} />
         <Display message={awayScore} />
+      </div>
+      <div>
+        <Scorecard />
       </div>
     </>
   );
