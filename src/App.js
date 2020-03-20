@@ -19,7 +19,7 @@ function HomeButton(props) {
 }
 
 function AwayButton(props) {
-  // this will be the home button
+  // this will be the away button
   return (
     <button
       className="awayButton"
@@ -28,6 +28,10 @@ function AwayButton(props) {
       Away point
     </button>
   );
+}
+
+function SubmitButton(props) {
+  return <button className="submitButton">Submit button</button>;
 }
 
 function App() {
@@ -50,6 +54,9 @@ function App() {
         <h2>Away Name</h2>
         <AwayButton onClickFunction={incrementAway} increment={1} />
         <Display message={awayScore} />
+      </div>
+      <div>
+        <SubmitButton />
       </div>
       <div>
         <Scorecard />
